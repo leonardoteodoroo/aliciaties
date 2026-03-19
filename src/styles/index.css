@@ -524,7 +524,7 @@
     background: linear-gradient(
       to bottom,
       transparent 0%,
-      transparent 45%,
+      transparent 0%,
       rgba(253, 251, 247, 0.27) 70%,
       rgba(253, 251, 247, 0.82) 86%,
       var(--color-background) 100%
@@ -568,7 +568,7 @@
 
   .hero-copy-panel-mobile-ivory-fade-halo {
     /* 👇👇 FUNDO DO TEXTO NO MOBILE 👇👇
-       Como o texto 'sobe' na imagem, esse gradiente aqui faz o fundo do texto 
+       Como o texto 'sobe' na imagem, esse gradiente aqui faz o fundo do texto
        ficar meio transparente no topo pra não cortar a foto no seco.
     */
     background: linear-gradient(
@@ -616,7 +616,7 @@
       rgba(253, 251, 247, 0.08) 85%,
       transparent 100%
     );
-    filter: blur(8px);
+    filter: blur(9px);
     z-index: -1;
     pointer-events: none;
   }

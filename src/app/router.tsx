@@ -8,11 +8,13 @@ import { FaqPage } from "../pages/FaqPage";
 import { HomePage } from "../pages/HomePage";
 import { PrivacyPage } from "../pages/PrivacyPage";
 import { TermsPage } from "../pages/TermsPage";
+import { ErrorPage } from "../pages/ErrorPage";
 
 export const appRoutes: RouteObject[] = [
   {
     path: "/",
     element: <AppLayout />,
+    errorElement: <ErrorPage />,
     children: [
       { index: true, element: <HomePage /> },
       { path: "colecoes", element: <CollectionsPage /> },

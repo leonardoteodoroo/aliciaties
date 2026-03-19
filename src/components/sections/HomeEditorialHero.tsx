@@ -50,13 +50,13 @@ export function HomeEditorialHero({
       data-testid="hero-section"
     >
       <div className="hero-split-shell relative grid grid-cols-1 lg:grid-cols-2">
-        {/* 
+        {/*
             👇👇 TEXTO SUBINDO NA FOTO NO MOBILE 👇👇
-            Sabe esse '-mt-[82%]'? É o que faz o texto 'subir' na imagem. 
+            Sabe esse '-mt-[82%]'? É o que faz o texto 'subir' na imagem.
             Aumente o número pra subir mais, diminua pra descer.
         */}
         <div
-          className="hero-copy-panel hero-copy-panel-mobile-ivory-fade-halo order-2 lg:order-1 relative z-20 -mt-[82%] lg:mt-0"
+          className="hero-copy-panel hero-copy-panel-mobile-ivory-fade-halo order-2 lg:order-1 relative z-20 -mt-[72%] lg:mt-0"
           data-testid="hero-copy-panel"
         >
           <div className="hero-copy-inner hero-copy-inner-mobile-ivory-fade-halo">
@@ -126,7 +126,7 @@ export function HomeEditorialHero({
             className="absolute inset-0 h-full w-full object-cover object-top filter sepia-[0.08] contrast-[0.95]"
           />
 
-          {/* 
+          {/*
               Overlay de gradiente: Responsável por suavizar a transição entre a imagem e o texto no mobile.
               A lógica de cores e intensidade está no src/styles/index.css sob a classe .hero-media-mobile-overlay
           */}
