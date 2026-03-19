@@ -7,7 +7,6 @@ import {
   atelierMemoryCards,
   atelierQuote,
   atelierStoryBlocks,
-  homeMemoryCards,
 } from "../content/atelier";
 import { homeHero } from "../content/home";
 import { siteConfig } from "../config/site";
@@ -96,13 +95,6 @@ export function HomePage() {
         </div>
       </SectionReveal>
 
-      <MemoryGrid
-        description="A melhor prova não é um adjetivo. É ver como a peça entra na foto sem disputar atenção e continua bonita na lembrança."
-        eyebrow="Histórias reais"
-        items={homeMemoryCards}
-        sectionId="depoimentos"
-        title="Quando a peça encontra o momento certo"
-      />
 
       <FaqConversionSection
         ctaCopy="Conte para a consultora o momento, a idade, a roupa ou a referência que você tem em mente. A partir disso, fica muito mais fácil indicar a peça certa."

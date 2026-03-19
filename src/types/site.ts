@@ -9,7 +9,7 @@ export interface SiteConfig {
   };
 }
 
-export type HomeSectionId = "colecoes" | "depoimentos" | "duvidas";
+export type HomeSectionId = "colecoes" | "atelier" | "duvidas";
 
 export interface RouteNavItem {
   kind: "route";
@@ -21,7 +21,7 @@ export interface AnchorNavItem {
   kind: "anchor";
   label: string;
   to: string;
-  sectionId: Extract<HomeSectionId, "depoimentos" | "duvidas">;
+  sectionId: Extract<HomeSectionId, "atelier" | "duvidas">;
   futurePagePath?: string;
 }
 

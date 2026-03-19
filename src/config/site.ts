@@ -3,9 +3,9 @@ import type { NavItem, SiteConfig } from "../types/site";
 export const siteConfig: SiteConfig = {
   siteName: "Alicia's Ties",
   basePath: import.meta.env.BASE_URL,
-  instagramUrl: "https://instagram.com/aliciaties",
+  instagramUrl: "https://www.instagram.com/aliciasties.atelier/",
   whatsapp: {
-    phone: "+55 (00) 00000-0000",
+    phone: "5561986339201",
     defaultMessage:
       "Olá! Vim pelo site da Alicia's Ties e gostaria de orientação para escolher uma peça para uma ocasião especial.",
     collectionMessages: {
@@ -28,7 +28,7 @@ export const navItems: NavItem[] = [
     kind: "anchor",
     label: "Memórias",
     to: "/",
-    sectionId: "depoimentos",
+    sectionId: "atelier",
     futurePagePath: "/depoimentos",
   },
   {
