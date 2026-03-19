@@ -512,9 +512,11 @@
 
 @media (max-width: 1023px) {
   .hero-media-mobile-overlay {
-    /* GRADIENTE SOBRE A IMAGEM (Mobile): 
-       Suaviza a parte de baixo da foto para mesclar com o fundo marfim.
-       Altere as porcentagens (45%, 70%) para mover o início e o fim da transição.
+    /* 👇👇 AQUI É ONDE A MÁGICA ACONTECE NO MOBILE (Gradiente sobre a foto) 👇👇
+       Sabe esse 'linear-gradient'? Ele é quem faz a foto 'ir sumindo' de baixo pra cima.
+       - Aumente o 45% pra foto aparecer mais tempo.
+       - Diminua se quiser que ela suma logo.
+       - O '0.27' e '0.82' é o quanto de branco/transparente você quer (0 é invisível, 1 é cor pura).
     */
     position: absolute;
     inset: 0;
@@ -523,7 +525,7 @@
       to bottom,
       transparent 0%,
       transparent 45%,
-      /* Começa a transição aqui */ rgba(253, 251, 247, 0.27) 70%,
+      rgba(253, 251, 247, 0.27) 70%,
       rgba(253, 251, 247, 0.82) 86%,
       var(--color-background) 100%
     );
@@ -565,8 +567,9 @@
   }
 
   .hero-copy-panel-mobile-ivory-fade-halo {
-    /* GRADIENTE DO PAINEL DE TEXTO (Mobile):
-       Controla como o fundo do painel de texto se comporta ao subir sobre a imagem.
+    /* 👇👇 FUNDO DO TEXTO NO MOBILE 👇👇
+       Como o texto 'sobe' na imagem, esse gradiente aqui faz o fundo do texto 
+       ficar meio transparente no topo pra não cortar a foto no seco.
     */
     background: linear-gradient(
       to bottom,
@@ -596,9 +599,10 @@
 
   .hero-copy-inner-mobile-ivory-fade-halo
     .home-hero-title-mobile-ivory-fade-halo::before {
-    /* HALO DE LEGEBILIDADE (Mobile):
-       Cria um brilho atrás do título para garantir contraste sobre a foto.
-       Ajuste o height e o radial-gradient para espalhar mais ou menos o brilho.
+    /* 👇👇 BRILHO ATRÁS DO Título (Mobile) 👇👇
+       Pra você conseguir ler o título por cima da foto.
+       - Aumente o '14rem' se quiser um brilho maior.
+       - Se quiser o brilho mais 'forte', aumente o 0.88 pra 1.0.
     */
     content: "";
     position: absolute;

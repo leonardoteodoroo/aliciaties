@@ -51,8 +51,9 @@ export function HomeEditorialHero({
     >
       <div className="hero-split-shell relative grid grid-cols-1 lg:grid-cols-2">
         {/* 
-            PAINEL DE CONTEÚDO (Esquerda no Desktop / Abaixo no Mobile) 
-            O margin-top negativo (-mt) no mobile faz o texto subir sobre a imagem
+            👇👇 TEXTO SUBINDO NA FOTO NO MOBILE 👇👇
+            Sabe esse '-mt-[82%]'? É o que faz o texto 'subir' na imagem. 
+            Aumente o número pra subir mais, diminua pra descer.
         */}
         <div
           className="hero-copy-panel hero-copy-panel-mobile-ivory-fade-halo order-2 lg:order-1 relative z-20 -mt-[82%] lg:mt-0"
