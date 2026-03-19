@@ -2,8 +2,11 @@ import atelierArtisanalImage from "../assets/images/atelier-artisanal.webp";
 import atelierMaterialsImage from "../assets/images/atelier-materials.webp";
 import memoryBabyBowImage from "../assets/images/memory-baby-bow.webp";
 import memoryBrideVineImage from "../assets/images/memory-bride-vine.webp";
+import memoryDetailSquareImage from "../assets/images/memory-detail-square.webp";
+import memoryEditorialPortraitImage from "../assets/images/memory-editorial-portrait.webp";
 import memoryLaceHeadbandImage from "../assets/images/memory-lace-headband.webp";
 import memoryMotherBabyImage from "../assets/images/memory-mother-baby.webp";
+import memoryProcessSquareImage from "../assets/images/memory-process-square.webp";
 import memoryWeddingDetailsImage from "../assets/images/memory-wedding-details.webp";
 import type { MemoryCard, StoryBlock } from "../types/site";
 
@@ -84,34 +87,25 @@ export const homeMemoryCards: MemoryCard[] = [
   memoryImageCards[2],
   memoryImageCards[3],
   {
-    id: "placeholder-detail-square",
-    kind: "placeholder",
-    title: "Nem toda delicadeza pede excesso.",
-    description:
-      "Às vezes a peça certa só confirma o que o momento já tinha de bonito.",
-    idealDimensions: "1080 x 1080 px",
-    idealRatio: "1:1",
+    id: "memory-detail-square",
+    kind: "image",
+    image: memoryDetailSquareImage,
+    imageAlt: "Detalhe em close do acabamento artesanal de um laço de seda creme.",
     size: "square",
   },
   {
-    id: "placeholder-process-square",
-    kind: "placeholder",
-    title: "O acabamento muda a memória da foto.",
-    description:
-      "Quando a escolha é cuidadosa, a peça envelhece melhor no olhar e no álbum.",
-    idealDimensions: "1080 x 1080 px",
-    idealRatio: "1:1",
+    id: "memory-process-square",
+    kind: "image",
+    image: memoryProcessSquareImage,
+    imageAlt: "Mãos de artesã amarrando laço de seda em bancada de ateliê com materiais ao redor.",
     size: "square",
   },
   memoryImageCards[4],
   {
-    id: "placeholder-editorial-portrait",
-    kind: "placeholder",
-    title: "O que hoje entra no look, amanhã entra na história.",
-    description:
-      "É por isso que algumas escolhas pequenas ficam tanto tempo com a gente.",
-    idealDimensions: "1200 x 1800 px",
-    idealRatio: "2:3",
+    id: "memory-editorial-portrait",
+    kind: "image",
+    image: memoryEditorialPortraitImage,
+    imageAlt: "Noiva de perfil com acessório de renda e pérolas no cabelo.",
     size: "portrait",
   },
 ];
@@ -122,33 +116,25 @@ export const atelierMemoryCards: MemoryCard[] = [
   memoryImageCards[2],
   memoryImageCards[3],
   {
-    id: "placeholder-detail-square",
-    kind: "placeholder",
-    title: "O olhar percebe o que a pressa não percebe.",
-    description:
-      "Acabamento, textura e proporção mudam o resultado, mesmo quando a peça é pequena.",
-    idealDimensions: "1080 x 1080 px",
-    idealRatio: "1:1",
+    id: "atelier-detail-square",
+    kind: "image",
+    image: memoryDetailSquareImage,
+    imageAlt: "Macro do tecido de seda mostrando acabamento artesanal e costura à mão.",
     size: "square",
   },
   {
-    id: "placeholder-process-square",
-    kind: "placeholder",
-    title: "A delicadeza não precisa pedir atenção.",
-    description:
-      "Quando a escolha é boa, ela entra no visual com leveza e fica na lembrança pelo cuidado.",
-    idealDimensions: "1080 x 1080 px",
-    idealRatio: "1:1",
+    id: "atelier-process-square",
+    kind: "image",
+    image: memoryProcessSquareImage,
+    imageAlt: "Vista de cima de artesã trabalhando com seda, pérolas e tesoura dourada.",
     size: "square",
   },
   memoryImageCards[4],
   {
-    id: "placeholder-editorial-portrait",
-    kind: "placeholder",
-    title: "Algumas peças passam. Outras permanecem.",
-    description: "É isso que o atelier tenta construir em cada encomenda.",
-    idealDimensions: "1200 x 1800 px",
-    idealRatio: "2:3",
+    id: "atelier-editorial-portrait",
+    kind: "image",
+    image: memoryEditorialPortraitImage,
+    imageAlt: "Retrato editorial de noiva com acessório de renda francesa e pérolas no cabelo.",
     size: "portrait",
   },
 ];
