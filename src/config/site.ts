@@ -5,7 +5,7 @@ export const siteConfig: SiteConfig = {
   basePath: import.meta.env.BASE_URL,
   instagramUrl: "https://www.instagram.com/aliciasties.atelier/",
   whatsapp: {
-    phone: "5561986339201",
+    phone: "5561994066141",
     defaultMessage:
       "Olá! Vim pelo site da Alicia's Ties e gostaria de orientação para escolher uma peça para uma ocasião especial.",
     collectionMessages: {
